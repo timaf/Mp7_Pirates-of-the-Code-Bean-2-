@@ -9,6 +9,7 @@ public class RestDalmaConfiguration {
 
     @Bean
     RestTemplate restTemplate(){
+
         return new RestTemplate();
     }
 }
